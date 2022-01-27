@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #4158d0;
+	background-image: linear-gradient(
+		43deg,
+		#4158d0 0%,
+		#c850c0 46%,
+		#ffcc70 100%
+	);
+
+	background-repeat: no-repeat;
+	background-size: stretch;
+}
+
+.buttonWrapper {
+	display: flex;
+	width: 20%;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+button {
+	padding: 20px;
+	border: none;
+	color: rgb(54, 54, 54);
+	font-family: 'Dongle', sans-serif;
+	font-size: 30px;
+	border-radius: 10px;
+	font-weight: 400;
+}
+
+#start {
+	background-color: #85ffbd;
+	background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
+#start:disabled {
+	background-color: #8f8f8f;
+	background-image: linear-gradient(45deg, #8f8f8f 0%, #646464 100%);
+}
+
+#stop {
+	background-color: #fbab7e;
+	background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+
+#reset {
+	background-color: #8bc6ec;
+	background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+}
+
+h1 {
+	font-size: 200px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 100px;
+	color: white;
+	font-family: 'Dongle', sans-serif;
+	font-weight: 400;
+}
