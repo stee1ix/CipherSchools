@@ -1,0 +1,57 @@
+.task-main {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2));
+    padding: 10px 20px;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+    margin-bottom: 15px;
+    transition: transform .2s;
+}
+
+.task-main:hover {
+    transform: scale(1.03);
+}
+
+.task-main h2 {
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #2b8f45;
+    width: 80%;
+}
+
+.buttons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.check,
+.delete {
+    width: 50px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+
+.check:hover {
+    transform: scale(1.1);
+}
+
+.delete:hover {
+    transform: scale(1.1);
+}
+
+.check {
+    margin-right: 10px;
+}
+
+.done-check {
+    text-decoration: line-through;
+}
